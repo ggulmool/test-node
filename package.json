@@ -1,0 +1,23 @@
+{
+  "name": "test-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ggulmool/test-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ggulmool/test-node/issues"
+  },
+  "homepage": "https://github.com/ggulmool/test-node#readme",
+  "dependencies": {
+    "express": "^4.17.2",
+    "node-telegram-bot-api": "^0.56.0"
+  }
+}
