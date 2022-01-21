@@ -9,7 +9,7 @@ app.get('/', (req, res) => {
 
 app.get('/test', (req, res) => {
   sendTelegramMessage('-605750959', req.query.msg)
-  req.send('send:' + req.query.msg)
+  res.send('send:' + req.query.msg)
 })
 
 app.listen(port, () => {
