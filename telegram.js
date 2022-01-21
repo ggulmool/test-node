@@ -20,4 +20,4 @@ bot.onText(/\/test (.+)/, async (msg, match) => {
     }
 })
 
-module.export = sendTelegramMessage
+module.exports = sendTelegramMessage
